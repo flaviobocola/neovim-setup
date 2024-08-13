@@ -14,7 +14,7 @@ text highlight
 
 ### lsp-config.lua:
 LanguageServerProtocol
-<\ b>
+<br />
 **LspInfo** tells us what LSPs are connected to our current buffer
 **shift + K** shows info about selected function
 **space + CA** shows code action
