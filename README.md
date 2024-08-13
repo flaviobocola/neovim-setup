@@ -13,23 +13,22 @@ dashboard
 text highlight
 
 ### lsp-config.lua:
-LanguageServerProtocol
-<br />
-**LspInfo** tells us what LSPs are connected to our current buffer
-**shift + K** shows info about selected function
-**space + CA** shows code action
+LanguageServerProtocol <br />
+**LspInfo** tells us what LSPs are connected to our current buffer <br />
+**shift + K** shows info about selected function <br />
+**space + CA** shows code action <br />
 
 ### telescope.lua:
 find file: **cntrl + P**
 live grep: **space + F + G**
 
 ### neo-tree.lua:
-show tree: **cntrl + N**
-close tree: **cntrl + M**
+show tree: **cntrl + N** <br />
+close tree: **cntrl + M** <br />
 create file/directory: **A (if done inside the tree)**
 
 ### none-ls (you find it as null-ls in the configuration):
-it formats code
+it formats code <br />
 (you have to import the language in the setup, than install the formatter with :Mason and at the end **SPACE + G + F** to format)
 
 ### nvim-cmp:
