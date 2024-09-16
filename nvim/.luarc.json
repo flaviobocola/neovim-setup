@@ -2,6 +2,8 @@
     "diagnostics.globals": [
         "vim",
         "local",
-        "return"
+        "return",
+        "let",
+        "g"
     ]
 }

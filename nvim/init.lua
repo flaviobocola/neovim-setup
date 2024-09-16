@@ -12,5 +12,13 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.opt.guicursor = "n-v-i-c:block-Cursor"
 
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldenable = true
+vim.opt.foldlevel = 99
+
+vim.api.nvim_set_keymap("n", "b", ":foldopen<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "B", ":foldclose<CR>", { noremap = true, silent = true })
+
 require("vim-options")
 require("lazy").setup("plugins")
